@@ -1,0 +1,2 @@
+# SVSelect
+Simple Vue Select

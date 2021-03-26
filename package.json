@@ -1,0 +1,33 @@
+{
+  "name": "svselect",
+  "version": "1.0.0",
+  "private": true,
+  "author": "SVAY",
+  "main": "./dist/SVSelect.umd.js",
+  "module": "./dist/SVSelect.esm.js",
+  "unpkg": "./dist/SVSelect.min.js",
+  "browser": {
+    "./sfc": "./src/JVEditor/SVSelect.vue"
+  },
+  "files": [
+    "dist/*",
+    "src/SVSelect.vue"
+  ],
+  "scripts": {
+    "dev": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name SVSelect src/SVSelect.vue",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "sass": "^1.32.8",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuepress": "^1.8.2"
+  }
+}
